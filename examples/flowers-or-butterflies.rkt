@@ -1,5 +1,8 @@
 #lang s-exp stamps/lang 
 
+; Copyright Eric Clack 2017. This work is licensed under a Creative Commons
+; Attribution-ShareAlike 4.0 International License.
+
 (define (wobble w a)
   ;; vary width w by up to 20% using sin and a
   (+ w (* (* w .2) (sin (/ a 4)))))
@@ -7,7 +10,7 @@
 (define-shape circle
   ((lines 0) [alpha -.9]
              [sat 1]
-             [brightness .5]))
+             [brightness 1]))
 
 (define-shape (lines i)
   ; draw lines around rotated around centre point
