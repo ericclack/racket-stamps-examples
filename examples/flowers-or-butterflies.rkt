@@ -13,7 +13,7 @@
              [brightness 1]))
 
 (define-shape (lines i)
-  ; draw lines around rotated around centre point
+  ; draw lines rotated around centre point
   ; i is a simple counter for input into wobble
   (square [s (wobble 100 i) 5])
   ((lines (add1 i)) [r (rr 0 5)]))
