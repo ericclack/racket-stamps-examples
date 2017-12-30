@@ -31,19 +31,23 @@
   )
 
 (define-shape I
-  (square [s 500 170]
-          [t .5 -.5]
-          [sat 0] [b 1]
-          [z-order 1]))
+  ((loop ([i 75])
+         (square [y i]
+                 [s 500 1.3]
+                 [b (- 1 (/ i 100))]
+                 )))
+  )
 
 (define-shape scene
   ((H 0)
    [hue 220]
    [saturation 0.5])
-  (I)
+  (I [z-order 1]
+     [t 250 -75]
+     )
 )
 
-(bounding '(-500 -170 0 20))
+(bounding '(-500 -170 0 -55))
 (background '(200 1 1))
-(maximum-render-cycles 10000)
+(maximum-render-cycles 50000)
 (start-shape scene)

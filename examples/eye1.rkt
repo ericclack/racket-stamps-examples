@@ -13,13 +13,11 @@
   (lines [r (rr 0 5)]))
 
 (define-shape pupil
-  (circle [s 30]))
+  (circle [s 40]))
 
 (define-shape scene
   (iris [h 190])
-  (pupil
-   ;[z 1]
-   )
+  (pupil [z-order 1])
 )
 
 (maximum-render-cycles 300)
