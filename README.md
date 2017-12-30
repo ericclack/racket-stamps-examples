@@ -5,6 +5,12 @@ https://github.com/rodrigosetti/stamps and https://github.com/ericclack/racket-s
 
 All work in this repo Copyright Eric Clack 2017. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
+## Square Spikes 4
+![Square Spikes 4](examples/output/square-spikes4.png "Square Spikes 4")
+
+[Source code](examples/square-spikes4.rkt)
+
+
 ## Hills 2
 ![Hills 2](examples/output/hills2.png "Hills 2")
 
