@@ -5,6 +5,12 @@ https://github.com/rodrigosetti/stamps and https://github.com/ericclack/racket-s
 
 All work in this repo Copyright Eric Clack 2017. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
+## Pentagon Tiles 2 Colour
+![Pentagon Tiles 2 Colour](examples/output/pentagon-tiles2-colour.png "Pentagon Tiles 2 Colour")
+
+[Source code](examples/pentagon-tiles2-colour.rkt)
+
+
 ## Square Spikes 4
 ![Square Spikes 4](examples/output/square-spikes4.png "Square Spikes 4")
 
