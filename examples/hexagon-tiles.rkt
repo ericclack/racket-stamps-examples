@@ -15,7 +15,7 @@
 (define-shape scene
   (H 
      [alpha -.8]
-     [b .5]))
+     [b .3]))
 
 (maximum-render-cycles 500)
 (start-shape scene)
