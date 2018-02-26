@@ -13,7 +13,8 @@
   (lines [r (rr 0 5)]))
 
 (define-shape pupil
-  (circle [s 40]))
+  ;; 100-sided polygon is smoother than a (circle)
+  ((polygon 100) [s 40]))
 
 (define-shape scene
   (iris [h 190])
