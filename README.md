@@ -5,6 +5,11 @@ https://github.com/rodrigosetti/stamps and https://github.com/ericclack/racket-s
 
 All work in this repo Copyright Eric Clack 2017. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
+## Tiled Sheared Circles
+![Tiled Sheared Circles](examples/output/tiled-sheared-circles.png "Tiled Sheared Circles")
+
+[Source code](examples/tiled/tiled-sheared-circles.rkt)
+
 ## Pentagon Tiles 2 Colour
 ![Pentagon Tiles 2 Colour](examples/output/pentagon-tiles2-colour.png "Pentagon Tiles 2 Colour")
 
