@@ -8,12 +8,12 @@ All work in this repo Copyright Eric Clack 2017. This work is licensed under a [
 ## Tiled Sheared Circles
 ![Tiled Sheared Circles](examples/output/tiled-sheared-circles.png "Tiled Sheared Circles")
 
-[Source code](examples/tiled/tiled-sheared-circles.rkt)
+[Source code](examples/tiling/tiling-sheared-circles1.rkt)
 
 ## Pentagon Tiles 2 Colour
 ![Pentagon Tiles 2 Colour](examples/output/pentagon-tiles2-colour.png "Pentagon Tiles 2 Colour")
 
-[Source code](examples/pentagon-tiles2-colour.rkt)
+[Source code](examples/tiling/pentagon-tiles2-colour.rkt)
 
 
 ## Square Spikes 4
