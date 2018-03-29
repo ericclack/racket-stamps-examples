@@ -1,4 +1,3 @@
-
 #lang s-exp stamps/lang
 
 (define-shape line-of-circles
@@ -14,5 +13,5 @@
 
 (maximum-render-cycles 1000)
 (background '(0 0 .9))
-(bounding '(-15 -12 0.50 0.50))
+(bounding '(-14.4 -11 -0.5 -0.3))
 (start-shape grid)
